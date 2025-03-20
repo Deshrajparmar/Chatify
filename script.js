@@ -53,10 +53,10 @@ function removeThinkingIndicator() {
   }
 }
 
-// Fetch bot response (placeholder for Gemini AI integration)
+
 async function getBotResponse(userMessage) {
     try {
-      const response = await fetch('AIzaSyAM-YGxenL1UYgwjWtfCIxsSEH0VoYg_XQ', {
+      const response = await fetch('', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
